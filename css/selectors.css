@@ -85,7 +85,7 @@ label{
 /*Fes que la primera lletra de l'element amb id 'special' sigui verda i amb font de 100px font size(font-size: 100)*/
 .special-span .special{
     color: green;
-    font-size: 100px;
+    font-size: 101px;
 
 }
 
