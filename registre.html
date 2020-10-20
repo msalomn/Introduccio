@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari Registre</title>
+</head>
+<body>
+    
+    <h1>Exercici, formulari de registre</h1>
+    <form action="login.html" method="GET">
+        <div>
+        <label for="nom">Nom:</label>
+        <input id="nom" type="text" autofocus required>
+        <label for="llinatges">Llinatges:</label>
+        <input id="llinatges" type="text" required>
+    </div>
+    <label for="radio-choice-1">Home:</label>
+    <input name=”option” type="radio" id="radio-choice-1" value="choice-1" autofocus required/>
+    <label for="radio-choice-2">Dona:</label>
+    <input name=”option” type="radio" id="radio-choice-2" value="choice-2" required/>
+    <label for="radio-choice-2">Altre:</label>
+    <input name=”option” type="radio" id="radio-choice-2" value="choice-3" required/>
+
+    <div>
+        <label for="usuari">Email:</label>
+        <input id="usuari" type="text" placeholder="El teu email" pattern=".com" title="Només s'accepten direccions acabades en.com">
+        <label for="password">Contrassenya:</label>
+        <input id="password" type="password" minlength="5" maxlength="10" required>
+    </div>
+
+    <div>
+       <label for="data">Data de naixement:</label>
+      <input id="data" type="date" required>
+    </div>
+
+    <div>
+        <label><input type="checkbox" id="cbox1" required value="primer_checkbox"> Estic d'acord amb els termes i condicions</label>
+    </div>
+
+    <div>
+        <input type="submit" value="Submit" />
+      </div>
+    
+    </form>
+</body>
+</html>
